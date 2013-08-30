@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TYObject.h"
+typedef void (^FieldChange)(NSString *values);
 @interface TYViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UITextField *blockField;
+@property (nonatomic ,assign) FieldChange fileChange;
 @end

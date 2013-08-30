@@ -18,17 +18,19 @@
 		1888DB8A1793B9B30084389D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1888DB891793B9B30084389D /* Default-568h@2x.png */; };
 		1888DB8D1793B9B30084389D /* TYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1888DB8C1793B9B30084389D /* TYViewController.m */; };
 		1888DB901793B9B30084389D /* TYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1888DB8E1793B9B30084389D /* TYViewController.xib */; };
+		189A441A17962AD200CEBD41 /* TYMyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 189A441917962AD200CEBD41 /* TYMyOperation.m */; };
+		189A444F17964B9100CEBD41 /* TYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 189A444E17964B9100CEBD41 /* TYObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1888DB701793B9B20084389D /* mskproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mskproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1888DB701793B9B20084389D /* testBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1888DB731793B9B20084389D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1888DB751793B9B20084389D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1888DB771793B9B20084389D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1888DB7B1793B9B20084389D /* mskproject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mskproject-Info.plist"; sourceTree = "<group>"; };
+		1888DB7B1793B9B20084389D /* testBlock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testBlock-Info.plist"; sourceTree = "<group>"; };
 		1888DB7D1793B9B20084389D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1888DB7F1793B9B20084389D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1888DB811793B9B30084389D /* mskproject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mskproject-Prefix.pch"; sourceTree = "<group>"; };
+		1888DB811793B9B30084389D /* testBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testBlock-Prefix.pch"; sourceTree = "<group>"; };
 		1888DB821793B9B30084389D /* TYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYAppDelegate.h; sourceTree = "<group>"; };
 		1888DB831793B9B30084389D /* TYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYAppDelegate.m; sourceTree = "<group>"; };
 		1888DB851793B9B30084389D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -37,6 +39,10 @@
 		1888DB8B1793B9B30084389D /* TYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYViewController.h; sourceTree = "<group>"; };
 		1888DB8C1793B9B30084389D /* TYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYViewController.m; sourceTree = "<group>"; };
 		1888DB8F1793B9B30084389D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TYViewController.xib; sourceTree = "<group>"; };
+		189A441817962AD200CEBD41 /* TYMyOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYMyOperation.h; sourceTree = "<group>"; };
+		189A441917962AD200CEBD41 /* TYMyOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYMyOperation.m; sourceTree = "<group>"; };
+		189A444D17964B9100CEBD41 /* TYObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYObject.h; sourceTree = "<group>"; };
+		189A444E17964B9100CEBD41 /* TYObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,7 @@
 		1888DB671793B9B20084389D = {
 			isa = PBXGroup;
 			children = (
-				1888DB791793B9B20084389D /* mskproject */,
+				1888DB791793B9B20084389D /* testBlock */,
 				1888DB721793B9B20084389D /* Frameworks */,
 				1888DB711793B9B20084389D /* Products */,
 			);
@@ -65,7 +71,7 @@
 		1888DB711793B9B20084389D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1888DB701793B9B20084389D /* mskproject.app */,
+				1888DB701793B9B20084389D /* testBlock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,26 +86,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1888DB791793B9B20084389D /* mskproject */ = {
+		1888DB791793B9B20084389D /* testBlock */ = {
 			isa = PBXGroup;
 			children = (
 				1888DB821793B9B30084389D /* TYAppDelegate.h */,
 				1888DB831793B9B30084389D /* TYAppDelegate.m */,
+				189A441817962AD200CEBD41 /* TYMyOperation.h */,
+				189A441917962AD200CEBD41 /* TYMyOperation.m */,
 				1888DB8B1793B9B30084389D /* TYViewController.h */,
 				1888DB8C1793B9B30084389D /* TYViewController.m */,
 				1888DB8E1793B9B30084389D /* TYViewController.xib */,
+				189A444D17964B9100CEBD41 /* TYObject.h */,
+				189A444E17964B9100CEBD41 /* TYObject.m */,
 				1888DB7A1793B9B20084389D /* Supporting Files */,
 			);
-			path = mskproject;
+			path = testBlock;
 			sourceTree = "<group>";
 		};
 		1888DB7A1793B9B20084389D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1888DB7B1793B9B20084389D /* mskproject-Info.plist */,
+				1888DB7B1793B9B20084389D /* testBlock-Info.plist */,
 				1888DB7C1793B9B20084389D /* InfoPlist.strings */,
 				1888DB7F1793B9B20084389D /* main.m */,
-				1888DB811793B9B30084389D /* mskproject-Prefix.pch */,
+				1888DB811793B9B30084389D /* testBlock-Prefix.pch */,
 				1888DB851793B9B30084389D /* Default.png */,
 				1888DB871793B9B30084389D /* Default@2x.png */,
 				1888DB891793B9B30084389D /* Default-568h@2x.png */,
@@ -110,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1888DB6F1793B9B20084389D /* mskproject */ = {
+		1888DB6F1793B9B20084389D /* testBlock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1888DB931793B9B30084389D /* Build configuration list for PBXNativeTarget "mskproject" */;
+			buildConfigurationList = 1888DB931793B9B30084389D /* Build configuration list for PBXNativeTarget "testBlock" */;
 			buildPhases = (
 				1888DB6C1793B9B20084389D /* Sources */,
 				1888DB6D1793B9B20084389D /* Frameworks */,
@@ -122,9 +132,9 @@
 			);
 			dependencies = (
 			);
-			name = mskproject;
+			name = testBlock;
 			productName = mskproject;
-			productReference = 1888DB701793B9B20084389D /* mskproject.app */;
+			productReference = 1888DB701793B9B20084389D /* testBlock.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +147,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = SHTY;
 			};
-			buildConfigurationList = 1888DB6B1793B9B20084389D /* Build configuration list for PBXProject "mskproject" */;
+			buildConfigurationList = 1888DB6B1793B9B20084389D /* Build configuration list for PBXProject "testBlock" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -149,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1888DB6F1793B9B20084389D /* mskproject */,
+				1888DB6F1793B9B20084389D /* testBlock */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +187,8 @@
 				1888DB801793B9B20084389D /* main.m in Sources */,
 				1888DB841793B9B30084389D /* TYAppDelegate.m in Sources */,
 				1888DB8D1793B9B30084389D /* TYViewController.m in Sources */,
+				189A441A17962AD200CEBD41 /* TYMyOperation.m in Sources */,
+				189A444F17964B9100CEBD41 /* TYObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +274,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "mskproject/mskproject-Prefix.pch";
-				INFOPLIST_FILE = "mskproject/mskproject-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "testBlock/testBlock-Prefix.pch";
+				INFOPLIST_FILE = "testBlock/testBlock-Info.plist";
+				PRODUCT_NAME = testBlock;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -273,9 +285,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "mskproject/mskproject-Prefix.pch";
-				INFOPLIST_FILE = "mskproject/mskproject-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "testBlock/testBlock-Prefix.pch";
+				INFOPLIST_FILE = "testBlock/testBlock-Info.plist";
+				PRODUCT_NAME = testBlock;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -283,7 +295,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1888DB6B1793B9B20084389D /* Build configuration list for PBXProject "mskproject" */ = {
+		1888DB6B1793B9B20084389D /* Build configuration list for PBXProject "testBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1888DB911793B9B30084389D /* Debug */,
@@ -292,13 +304,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1888DB931793B9B30084389D /* Build configuration list for PBXNativeTarget "mskproject" */ = {
+		1888DB931793B9B30084389D /* Build configuration list for PBXNativeTarget "testBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1888DB941793B9B30084389D /* Debug */,
 				1888DB951793B9B30084389D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
