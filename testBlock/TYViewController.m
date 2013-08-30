@@ -71,10 +71,10 @@
 				NSInvocationOperation *invo3 = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(printInfo:) object:@"msk3"];
 				NSInvocationOperation *invo4 = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(printInfo:) object:@"msk4"];
 
-				NSBlockOperation *bloc = [NSBlockOperation blockOperationWithBlock:^{
-						[self printInfo:@"msk block"];
-				}];
-			
+//				NSBlockOperation *bloc = [NSBlockOperation blockOperationWithBlock:^{
+//						[self printInfo:@"msk block"];
+//				}];
+//			
 //
 //				TYMyOperation *op = [[TYMyOperation alloc] init];
 				NSOperationQueue *queue = [[NSOperationQueue alloc] init];
@@ -83,7 +83,7 @@
 				[queue addOperation:invo2];
 				[queue addOperation:invo3];
 				[queue addOperation:invo4];
-			  [queue addOperation:bloc];
+//			  [queue addOperation:bloc];
 				[invo setQueuePriority:NSOperationQueuePriorityLow];
 				[invo4 setQueuePriority:NSOperationQueuePriorityVeryHigh];
 //				[queue addOperation:op];
