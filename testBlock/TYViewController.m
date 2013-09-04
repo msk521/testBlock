@@ -8,11 +8,12 @@
 
 #import "TYViewController.h"
 #import "TYMyOperation.h"
+#import "DAViewController.h"
 #define EXCEPTION @"数组越界"
 #define EXCEPTION_NAME @"MyException"
 
 
-#define ISREMOVE 0
+//#define ISREMOVE 0
 
 #ifdef ISREMOVE
 #define NSLog(...) NSLog(__VA_ARGS__)
@@ -71,10 +72,10 @@
 				NSInvocationOperation *invo3 = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(printInfo:) object:@"msk3"];
 				NSInvocationOperation *invo4 = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(printInfo:) object:@"msk4"];
 
-//				NSBlockOperation *bloc = [NSBlockOperation blockOperationWithBlock:^{
-//						[self printInfo:@"msk block"];
-//				}];
-//			
+				NSBlockOperation *bloc = [NSBlockOperation blockOperationWithBlock:^{
+						[self printInfo:@"msk block"];
+				}];
+//
 //
 //				TYMyOperation *op = [[TYMyOperation alloc] init];
 				NSOperationQueue *queue = [[NSOperationQueue alloc] init];
@@ -83,7 +84,7 @@
 				[queue addOperation:invo2];
 				[queue addOperation:invo3];
 				[queue addOperation:invo4];
-//			  [queue addOperation:bloc];
+			  [queue addOperation:bloc];
 				[invo setQueuePriority:NSOperationQueuePriorityLow];
 				[invo4 setQueuePriority:NSOperationQueuePriorityVeryHigh];
 //				[queue addOperation:op];
@@ -101,6 +102,32 @@
 				[self printInfo:@" msk sync"];
 				
 		});
+}
+
+- (IBAction)jumpToDAP:(id)sender {
+	DAViewController *dat = [[DAViewController alloc] init];
+	[self presentViewController:dat animated:YES completion:nil];
+}
+
+-(void)testDispatch{
+	dispatch_queue_t queue = dispatch_queue_create("msk.com", NULL);
+	dispatch_sync(queue, ^{
+		//同步做一些事情
+	});
+	
+	dispatch_async(queue,^{
+	
+		//异步做一些事情
+	});
+	
+	dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+		//处理耗时操作
+		
+		dispatch_async(dispatch_get_main_queue(), ^{
+      //耗时操作执行完毕通知主线程
+		});
+	});
+	
 }
 
 -(void)printInfo:(NSString *)str{

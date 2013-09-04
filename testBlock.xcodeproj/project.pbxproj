@@ -20,6 +20,10 @@
 		1888DB901793B9B30084389D /* TYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1888DB8E1793B9B30084389D /* TYViewController.xib */; };
 		189A441A17962AD200CEBD41 /* TYMyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 189A441917962AD200CEBD41 /* TYMyOperation.m */; };
 		189A444F17964B9100CEBD41 /* TYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 189A444E17964B9100CEBD41 /* TYObject.m */; };
+		18A076E017D46A3A00FDF341 /* DAProgressOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A076DF17D46A3A00FDF341 /* DAProgressOverlayView.m */; };
+		18A076E317D46A5F00FDF341 /* DAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A076E217D46A5F00FDF341 /* DAViewController.m */; };
+		18A076E517D46B4D00FDF341 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A076E417D46B4D00FDF341 /* icon.png */; };
+		18A076E717D46B8F00FDF341 /* DAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A076E617D46B8F00FDF341 /* DAViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,12 @@
 		189A441917962AD200CEBD41 /* TYMyOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYMyOperation.m; sourceTree = "<group>"; };
 		189A444D17964B9100CEBD41 /* TYObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYObject.h; sourceTree = "<group>"; };
 		189A444E17964B9100CEBD41 /* TYObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYObject.m; sourceTree = "<group>"; };
+		18A076DE17D46A3A00FDF341 /* DAProgressOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAProgressOverlayView.h; sourceTree = "<group>"; };
+		18A076DF17D46A3A00FDF341 /* DAProgressOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAProgressOverlayView.m; sourceTree = "<group>"; };
+		18A076E117D46A5F00FDF341 /* DAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAViewController.h; sourceTree = "<group>"; };
+		18A076E217D46A5F00FDF341 /* DAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAViewController.m; sourceTree = "<group>"; };
+		18A076E417D46B4D00FDF341 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		18A076E617D46B8F00FDF341 /* DAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DAViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,11 +101,17 @@
 			children = (
 				1888DB821793B9B30084389D /* TYAppDelegate.h */,
 				1888DB831793B9B30084389D /* TYAppDelegate.m */,
+				18A076DE17D46A3A00FDF341 /* DAProgressOverlayView.h */,
+				18A076DF17D46A3A00FDF341 /* DAProgressOverlayView.m */,
+				18A076E117D46A5F00FDF341 /* DAViewController.h */,
+				18A076E217D46A5F00FDF341 /* DAViewController.m */,
+				18A076E617D46B8F00FDF341 /* DAViewController.xib */,
 				189A441817962AD200CEBD41 /* TYMyOperation.h */,
 				189A441917962AD200CEBD41 /* TYMyOperation.m */,
 				1888DB8B1793B9B30084389D /* TYViewController.h */,
 				1888DB8C1793B9B30084389D /* TYViewController.m */,
 				1888DB8E1793B9B30084389D /* TYViewController.xib */,
+				18A076E417D46B4D00FDF341 /* icon.png */,
 				189A444D17964B9100CEBD41 /* TYObject.h */,
 				189A444E17964B9100CEBD41 /* TYObject.m */,
 				1888DB7A1793B9B20084389D /* Supporting Files */,
@@ -174,6 +190,8 @@
 				1888DB881793B9B30084389D /* Default@2x.png in Resources */,
 				1888DB8A1793B9B30084389D /* Default-568h@2x.png in Resources */,
 				1888DB901793B9B30084389D /* TYViewController.xib in Resources */,
+				18A076E517D46B4D00FDF341 /* icon.png in Resources */,
+				18A076E717D46B8F00FDF341 /* DAViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +207,8 @@
 				1888DB8D1793B9B30084389D /* TYViewController.m in Sources */,
 				189A441A17962AD200CEBD41 /* TYMyOperation.m in Sources */,
 				189A444F17964B9100CEBD41 /* TYObject.m in Sources */,
+				18A076E017D46A3A00FDF341 /* DAProgressOverlayView.m in Sources */,
+				18A076E317D46A5F00FDF341 /* DAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
